@@ -88,7 +88,7 @@ msgstr "%s deve essere installato."
 msgid "%s pattern is missing"
 msgstr "Modello mancante"
 
-#: commands/instances.go:805
+#: commands/instances.go:806
 msgid "%s uninstalled"
 msgstr "%s disinstallato"
 
@@ -104,7 +104,7 @@ msgstr "(nascosto)"
 msgid "(legacy)"
 msgstr "(ereditato)"
 
-#: cli/lib/install.go:81
+#: cli/lib/install.go:82
 msgid ""
 "--git-url and --zip-path are disabled by default, for more information see: "
 "%v"
@@ -112,7 +112,7 @@ msgstr ""
 "--git-url e --zip-path sono disabilitati per impostazione predefinita, per "
 "maggiori informazioni vedere: %v"
 
-#: cli/lib/install.go:84
+#: cli/lib/install.go:85
 msgid ""
 "--git-url and --zip-path flags allow installing untrusted files, use it at "
 "your own risk."
@@ -151,7 +151,7 @@ msgstr "Alias:"
 msgid "All the cores are already at the latest version"
 msgstr "Tutti i core sono già all'ultima versione"
 
-#: commands/instances.go:676 commands/lib/install.go:86
+#: commands/instances.go:677 commands/lib/install.go:86
 #: commands/lib/install.go:131
 msgid "Already installed %s"
 msgstr "Già installato %s"
@@ -216,7 +216,7 @@ msgstr "Comandi di configurazione Arduino."
 msgid "Arduino core operations."
 msgstr "Operazioni core Arduino"
 
-#: cli/lib/check_deps.go:56 cli/lib/install.go:127
+#: cli/lib/check_deps.go:56 cli/lib/install.go:128
 msgid "Arguments error: %v"
 msgstr "Errore di argomenti: %v"
 
@@ -284,7 +284,7 @@ msgid "Can't download library"
 msgstr "Non è possibile scaricare la libreria"
 
 #: commands/core/install.go:136 commands/core/uninstall.go:53
-#: commands/instances.go:715 commands/instances.go:727
+#: commands/instances.go:716 commands/instances.go:728
 msgid "Can't find dependencies for platform %s"
 msgstr "Dipendenze per la piattaforma %s non trovate"
 
@@ -440,7 +440,7 @@ msgstr "Configurazione della porta."
 msgid "Configuration options for %s"
 msgstr "Opzioni di configurazione per %s"
 
-#: commands/instances.go:812
+#: commands/instances.go:813
 msgid "Configuring platform"
 msgstr "Configurazione della piattaforma"
 
@@ -468,7 +468,7 @@ msgstr "Nome core"
 msgid "Could not connect via HTTP"
 msgstr "Non è possibile connettersi via HTTP"
 
-#: commands/instances.go:434
+#: commands/instances.go:435
 msgid "Could not create index directory"
 msgstr "Impossibile creare la cartella dell'indice"
 
@@ -480,7 +480,7 @@ msgstr ""
 msgid "Couldn't determine program size"
 msgstr "Non è possibile determinare la dimensione del programma"
 
-#: cli/arguments/sketch.go:37 cli/lib/install.go:107
+#: cli/arguments/sketch.go:37 cli/lib/install.go:108
 msgid "Couldn't get current working directory: %v"
 msgstr "Impossibile ottenere la cartella di lavoro corrente: %v"
 
@@ -606,11 +606,11 @@ msgstr "Disconnesso"
 msgid "Display only the provided gRPC calls"
 msgstr ""
 
-#: cli/lib/install.go:62
+#: cli/lib/install.go:63
 msgid "Do not install dependencies."
 msgstr "Non installare le dipendenze."
 
-#: cli/lib/install.go:63
+#: cli/lib/install.go:64
 msgid "Do not overwrite already installed libraries."
 msgstr ""
 
@@ -626,7 +626,7 @@ msgstr ""
 msgid "Do not terminate daemon process if the parent process dies"
 msgstr ""
 
-#: commands/instances.go:667 commands/instances.go:724
+#: commands/instances.go:668 commands/instances.go:725
 #: commands/lib/download.go:59
 msgid "Downloading %s"
 msgstr ""
@@ -635,11 +635,11 @@ msgstr ""
 msgid "Downloading index signature: %s"
 msgstr ""
 
-#: arduino/resources/index.go:58 commands/instances.go:485
+#: arduino/resources/index.go:58 commands/instances.go:486
 msgid "Downloading index: %s"
 msgstr ""
 
-#: commands/instances.go:367
+#: commands/instances.go:368
 msgid "Downloading library %s"
 msgstr ""
 
@@ -671,11 +671,11 @@ msgstr "Scarica uno o più librerie, senza installarle."
 msgid "Enable debug logging of gRPC calls"
 msgstr ""
 
-#: cli/lib/install.go:65
+#: cli/lib/install.go:66
 msgid "Enter a path to zip file"
 msgstr ""
 
-#: cli/lib/install.go:64
+#: cli/lib/install.go:65
 msgid "Enter git url for libraries hosted on repositories"
 msgstr ""
 
@@ -743,23 +743,23 @@ msgstr ""
 msgid "Error downloading index signature '%s'"
 msgstr ""
 
-#: commands/instances.go:669
+#: commands/instances.go:670
 msgid "Error downloading library"
 msgstr "Errore durante il download della libreria"
 
-#: commands/instances.go:379
+#: commands/instances.go:380
 msgid "Error downloading library %s"
 msgstr "Errore durante il download della libreria %s"
 
 #: arduino/cores/packagemanager/profiles.go:125
 #: arduino/cores/packagemanager/profiles.go:126 commands/core/download.go:72
-#: commands/instances.go:750
+#: commands/instances.go:751
 msgid "Error downloading platform %s"
 msgstr "Errore durante il download della piattaforma %s"
 
 #: arduino/cores/packagemanager/profiles.go:176 commands/core/download.go:81
-#: commands/core/download.go:86 commands/instances.go:743
-#: commands/instances.go:744
+#: commands/core/download.go:86 commands/instances.go:744
+#: commands/instances.go:745
 msgid "Error downloading tool %s"
 msgstr "Errore durante il download dello strumento %s"
 
@@ -855,30 +855,30 @@ msgstr ""
 msgid "Error initializing instance: %v"
 msgstr ""
 
-#: cli/lib/install.go:141
+#: cli/lib/install.go:142
 msgid "Error installing %s: %v"
 msgstr "Errore durante l'installazione %s: %v"
 
-#: cli/lib/install.go:118
+#: cli/lib/install.go:119
 msgid "Error installing Git Library: %v"
 msgstr "Errore durante l'installazione della libreria Git: %v"
 
-#: cli/lib/install.go:95
+#: cli/lib/install.go:96
 msgid "Error installing Zip Library: %v"
 msgstr ""
 
-#: commands/instances.go:389
+#: commands/instances.go:390
 msgid "Error installing library %s"
 msgstr ""
 
 #: arduino/cores/packagemanager/profiles.go:133
-#: arduino/cores/packagemanager/profiles.go:134 commands/instances.go:769
+#: arduino/cores/packagemanager/profiles.go:134 commands/instances.go:770
 msgid "Error installing platform %s"
 msgstr ""
 
 #: arduino/cores/packagemanager/profiles.go:177
 #: arduino/cores/packagemanager/profiles.go:184
-#: arduino/cores/packagemanager/profiles.go:185 commands/instances.go:759
+#: arduino/cores/packagemanager/profiles.go:185 commands/instances.go:760
 msgid "Error installing tool %s"
 msgstr "Errore durante l'installazione dello strumento %s"
 
@@ -951,7 +951,7 @@ msgstr ""
 msgid "Error retrieving outdated cores and libraries: %v"
 msgstr ""
 
-#: commands/instances.go:785
+#: commands/instances.go:786
 msgid "Error rolling-back changes"
 msgstr ""
 
@@ -996,7 +996,7 @@ msgstr ""
 msgid "Error uninstalling platform %s"
 msgstr ""
 
-#: commands/core/uninstall.go:97 commands/instances.go:801
+#: commands/core/uninstall.go:97 commands/instances.go:802
 msgid "Error uninstalling tool %s"
 msgstr ""
 
@@ -1020,7 +1020,7 @@ msgstr ""
 msgid "Error upgrading libraries: %v"
 msgstr ""
 
-#: commands/core/install.go:153 commands/instances.go:780
+#: commands/core/install.go:153 commands/instances.go:781
 msgid "Error upgrading platform: %s"
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgstr ""
 msgid "Installed"
 msgstr "Installato"
 
-#: commands/instances.go:690 commands/lib/install.go:147
+#: commands/instances.go:691 commands/lib/install.go:147
 msgid "Installed %s"
 msgstr "Installato %s"
 
@@ -1252,12 +1252,12 @@ msgstr "Installato %s"
 msgid "Installed version"
 msgstr "Versione installata"
 
-#: commands/bundled_tools.go:46 commands/instances.go:673
+#: commands/bundled_tools.go:46 commands/instances.go:674
 #: commands/lib/install.go:127
 msgid "Installing %s"
 msgstr "Installazione %s"
 
-#: commands/instances.go:387
+#: commands/instances.go:388
 msgid "Installing library %s"
 msgstr ""
 
@@ -1302,7 +1302,7 @@ msgstr ""
 msgid "Invalid URL"
 msgstr "URL non è valido"
 
-#: commands/instances.go:248
+#: commands/instances.go:269
 msgid "Invalid additional URL: %v"
 msgstr ""
 
@@ -1351,7 +1351,7 @@ msgstr ""
 msgid "Invalid output format: %s"
 msgstr ""
 
-#: commands/instances.go:480
+#: commands/instances.go:481
 msgid "Invalid package index in %s"
 msgstr ""
 
@@ -1423,7 +1423,7 @@ msgstr ""
 msgid "Library %s is not installed"
 msgstr ""
 
-#: commands/instances.go:373
+#: commands/instances.go:374
 msgid "Library %s not found"
 msgstr ""
 
@@ -1498,12 +1498,12 @@ msgstr "Lista di tutte le schede connesse."
 msgid "Lists cores and libraries that can be upgraded"
 msgstr ""
 
-#: commands/instances.go:256 commands/instances.go:263
-#: commands/instances.go:346
+#: commands/instances.go:277 commands/instances.go:284
+#: commands/instances.go:347
 msgid "Loading index file: %v"
 msgstr ""
 
-#: commands/instances.go:402
+#: commands/instances.go:403
 msgid "Loading libraries: %v"
 msgstr "Caricamento librerie: %v"
 
@@ -1898,7 +1898,7 @@ msgstr ""
 msgid "Removes one or more values from a setting."
 msgstr "Rimuove uno o più valori da un'impostazione."
 
-#: commands/instances.go:683 commands/lib/install.go:140
+#: commands/instances.go:684 commands/lib/install.go:140
 msgid "Replacing %[1]s with %[2]s"
 msgstr "Sostituire %[1]s con %[2]s"
 
@@ -2115,7 +2115,7 @@ msgstr ""
 msgid "Skipping dependencies detection for precompiled library %[1]s"
 msgstr ""
 
-#: commands/instances.go:818
+#: commands/instances.go:819
 msgid "Skipping platform configuration"
 msgstr ""
 
@@ -2200,7 +2200,7 @@ msgid ""
 msgstr ""
 
 #: commands/bundled_tools.go:41 commands/core/install.go:89
-#: commands/instances.go:734
+#: commands/instances.go:735
 msgid "Tool %s already installed"
 msgstr ""
 
@@ -2277,7 +2277,7 @@ msgstr ""
 msgid "Uninstalling %s, tool is no more required"
 msgstr ""
 
-#: commands/instances.go:797
+#: commands/instances.go:798
 msgid "Uninstalling %s: tool is no more required"
 msgstr ""
 
@@ -2323,7 +2323,7 @@ msgstr ""
 msgid "Updates the libraries index."
 msgstr "Aggiorna l'indice delle librerie."
 
-#: commands/instances.go:754
+#: commands/instances.go:755
 msgid "Updating platform %s"
 msgstr ""
 
@@ -2405,14 +2405,14 @@ msgstr ""
 msgid "Used: %[1]s"
 msgstr "Usata: %[1]s"
 
-#: arduino/libraries/librariesmanager/install.go:68
-#: arduino/libraries/librariesmanager/install.go:84
-#: arduino/libraries/librariesmanager/install.go:106
-#: arduino/libraries/librariesmanager/install.go:190
+#: arduino/libraries/librariesmanager/install.go:69
+#: arduino/libraries/librariesmanager/install.go:85
+#: arduino/libraries/librariesmanager/install.go:107
+#: arduino/libraries/librariesmanager/install.go:191
 msgid "User directory not set"
 msgstr "Cartella utente non impostata"
 
-#: legacy/builder/target_board_resolver.go:43
+#: legacy/builder/target_board_resolver.go:41
 msgid "Using board '%[1]s' from platform in folder: %[2]s"
 msgstr ""
 
@@ -2420,7 +2420,7 @@ msgstr ""
 msgid "Using cached library dependencies for file: %[1]s"
 msgstr ""
 
-#: legacy/builder/target_board_resolver.go:44
+#: legacy/builder/target_board_resolver.go:42
 msgid "Using core '%[1]s' from platform in folder: %[2]s"
 msgstr ""
 
@@ -2480,7 +2480,7 @@ msgstr ""
 msgid "WARNING: The sketch is compiled using one or more custom libraries."
 msgstr ""
 
-#: commands/instances.go:814
+#: commands/instances.go:815
 msgid "WARNING: cannot run post install: %s"
 msgstr ""
 
@@ -2497,7 +2497,7 @@ msgstr ""
 msgid "Waiting for upload port..."
 msgstr ""
 
-#: legacy/builder/add_build_board_property_if_missing.go:36
+#: legacy/builder/target_board_resolver.go:49
 msgid ""
 "Warning: Board %[1]s doesn't define a %[2]s preference. Auto-set to: %[3]s"
 msgstr ""
@@ -2556,7 +2556,7 @@ msgstr "e"
 msgid "archive hash differs from hash in index"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:137
+#: arduino/libraries/librariesmanager/install.go:138
 msgid "archive is not valid: multiple files found in zip file top level"
 msgstr ""
 
@@ -2588,9 +2588,9 @@ msgstr "scheda non trovata"
 msgid "boardname"
 msgstr "nomescheda"
 
-#: arduino/discovery/discovery.go:311 arduino/discovery/discovery.go:334
-#: arduino/discovery/discovery.go:356 arduino/discovery/discovery.go:391
-#: arduino/discovery/discovery.go:414
+#: arduino/discovery/discovery.go:314 arduino/discovery/discovery.go:337
+#: arduino/discovery/discovery.go:359 arduino/discovery/discovery.go:394
+#: arduino/discovery/discovery.go:417
 msgid "calling %[1]s: %[2]w"
 msgstr ""
 
@@ -2598,7 +2598,7 @@ msgstr ""
 msgid "can't find latest release of %s"
 msgstr ""
 
-#: commands/instances.go:296
+#: commands/instances.go:297
 msgid "can't find latest release of tool %s"
 msgstr ""
 
@@ -2643,17 +2643,17 @@ msgstr "comando"
 msgid "command '%[1]s' failed: %[2]s"
 msgstr ""
 
-#: arduino/discovery/discovery.go:315 arduino/discovery/discovery.go:338
-#: arduino/discovery/discovery.go:360 arduino/discovery/discovery.go:395
-#: arduino/discovery/discovery.go:418
+#: arduino/discovery/discovery.go:318 arduino/discovery/discovery.go:341
+#: arduino/discovery/discovery.go:363 arduino/discovery/discovery.go:398
+#: arduino/discovery/discovery.go:421
 msgid "command failed: %s"
 msgstr ""
 
-#: arduino/discovery/discovery.go:313 arduino/discovery/discovery.go:317
-#: arduino/discovery/discovery.go:336 arduino/discovery/discovery.go:340
-#: arduino/discovery/discovery.go:358 arduino/discovery/discovery.go:362
-#: arduino/discovery/discovery.go:393 arduino/discovery/discovery.go:416
-#: arduino/discovery/discovery.go:420 arduino/monitor/monitor.go:147
+#: arduino/discovery/discovery.go:316 arduino/discovery/discovery.go:320
+#: arduino/discovery/discovery.go:339 arduino/discovery/discovery.go:343
+#: arduino/discovery/discovery.go:361 arduino/discovery/discovery.go:365
+#: arduino/discovery/discovery.go:396 arduino/discovery/discovery.go:419
+#: arduino/discovery/discovery.go:423 arduino/monitor/monitor.go:147
 #: arduino/monitor/monitor.go:153
 msgid "communication out of sync, expected '%[1]s', received '%[2]s'"
 msgstr ""
@@ -2694,11 +2694,11 @@ msgstr ""
 msgid "destination already exists"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:75
+#: arduino/libraries/librariesmanager/install.go:76
 msgid "destination dir %s already exists, cannot install"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:268
+#: arduino/libraries/librariesmanager/install.go:294
 msgid "directory doesn't exist: %s"
 msgstr ""
 
@@ -2766,7 +2766,7 @@ msgstr ""
 msgid "extracting archive: %s"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:125
+#: arduino/libraries/librariesmanager/install.go:126
 msgid "extracting archive: %w"
 msgstr ""
 
@@ -2806,7 +2806,7 @@ msgstr "per una specifica versione."
 msgid "for the latest version."
 msgstr ""
 
-#: cli/lib/check_deps.go:41 cli/lib/install.go:53
+#: cli/lib/check_deps.go:41 cli/lib/install.go:53 cli/lib/install.go:55
 msgid "for the specific version."
 msgstr "per la specifica versione."
 
@@ -2856,7 +2856,7 @@ msgstr ""
 msgid "importing sketch metadata: %s"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:92
+#: arduino/libraries/librariesmanager/install.go:93
 msgid "install directory not set"
 msgstr ""
 
@@ -2920,7 +2920,7 @@ msgstr ""
 msgid "invalid empty option found"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:258
+#: arduino/libraries/librariesmanager/install.go:284
 msgid "invalid git url"
 msgstr "url git non è valido"
 
@@ -3004,16 +3004,16 @@ msgstr ""
 msgid "keywords"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:163
-#: arduino/libraries/librariesmanager/install.go:206
+#: arduino/libraries/librariesmanager/install.go:164
+#: arduino/libraries/librariesmanager/install.go:207
 msgid "library %s already installed"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:38
+#: arduino/libraries/librariesmanager/install.go:39
 msgid "library already installed"
 msgstr "la libreria è già installata"
 
-#: arduino/libraries/librariesmanager/install.go:305
+#: arduino/libraries/librariesmanager/install.go:331
 msgid "library not valid"
 msgstr ""
 
@@ -3110,7 +3110,7 @@ msgstr ""
 msgid "monitor release not found: %s"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:180
+#: arduino/libraries/librariesmanager/install.go:181
 #: arduino/resources/install.go:94
 msgid "moving extracted archive to destination dir: %s"
 msgstr ""
@@ -3243,7 +3243,7 @@ msgstr ""
 msgid "protocol version not supported: requested %[1]d, got %[2]d"
 msgstr ""
 
-#: arduino/discovery/discovery.go:319
+#: arduino/discovery/discovery.go:322
 msgid "protocol version not supported: requested 1, got %d"
 msgstr ""
 
@@ -3262,7 +3262,7 @@ msgstr ""
 msgid "reading directory %s"
 msgstr "lettura cartella %s"
 
-#: arduino/libraries/librariesmanager/install.go:278
+#: arduino/libraries/librariesmanager/install.go:304
 msgid "reading directory %s content: %w"
 msgstr ""
 
@@ -3319,7 +3319,7 @@ msgstr ""
 msgid "removing corrupted archive file: %s"
 msgstr ""
 
-#: arduino/libraries/librariesmanager/install.go:95
+#: arduino/libraries/librariesmanager/install.go:96
 msgid "removing lib directory: %s"
 msgstr ""
 
